@@ -1,13 +1,14 @@
-var idade = prompt('Digite a sua idade')
+var nome = prompt('Digite o seu nome: ')
+var peso = prompt('Informe o seu peso: ')
+var altura = prompt('Informe a sua altura em centimetros: ')
 
-if (idade >= 0 && idade <15 ) {
-    document.write('Criança')
-}if(idade >= 15 && idade < 30){
-    document.write('Jovem')
-}if ( idade >= 30 && idade < 60) {
-    document.write('Adulto')
-}if (idade > 60){
-    document.write('Idoso')
+ parseFloat(peso, altura)
+
+ altura /= 100
+
+ M = peso / altura**2
+
+if (M < 16) {
+    calss = 'Baxo peso muito grave'
 }
-
 
