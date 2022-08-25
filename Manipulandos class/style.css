@@ -1,0 +1,14 @@
+.style1 {
+background: red;
+color: #FFF;
+}
+
+.style2 {
+width: 400px;
+height: 50px;
+background-color: #FF0000;
+text-align: center;
+font-size: 25px;
+color: #FFF;
+padding: 25px;
+}
